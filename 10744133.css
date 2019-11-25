@@ -1,0 +1,333 @@
+<style>
+      html{
+            font-family:"STFangsong";
+            height:100%;
+          }
+
+      body{
+            min-width:1150px;
+          }
+
+     div.bg{
+              position: fixed;
+              top:0;
+              right:0;
+              bottom:0;
+              left: 0;
+              z-index: -1000;
+              opacity:0.5;
+              width:100%;
+           }
+
+     img.bg{ 
+             min-width:100%;
+             min-height:100%;
+             width:100%;
+           }
+
+	   nav.item{
+               min-width:100%;
+               margin-left:50px;
+	           }
+
+      img.icon{
+                width:100px;
+                height:110px;
+                float:left;
+                background-color:rgb(250, 240, 230,0.4);
+                display:inline-block;
+                height:110px;
+              }
+
+      ul.item{ 
+               position:absolute;
+               left:0px;
+               top:0px;
+               display:inline-block;
+               width:1145px;
+               height:110px;
+               overflow:hidden;
+               margin-left:20px;
+             }
+      
+       li.item{
+                display:inline-block;
+                float:left;
+                list-style-type:none;
+                line-height:110px;
+                text-align:center;
+   	            width:209px;
+   	            height:110px;
+       	        background-color:rgb(250, 240, 230,0.4);
+                padding-top:0px;
+                overflow:hidden;
+              }
+
+       a.item{
+               font-size: 25px;
+               color:dimgray;
+               text-align:center;
+               text-decoration:none;
+               letter-spacing:2px;
+               font-weight:bold;
+             }
+
+       li.item:hover{
+                       background-color:rgb(245, 222, 179,0.4)
+                    }
+
+       a.item:hover{
+                      color:#FFFFFF;
+                   }
+
+       #bn{
+            position:absolute;
+            left:0px;
+            top:145px;
+            width:1145px;
+            height:862px;
+            margin-left:60px;
+            margin-right:0px;
+            margin-bottom:0px;
+            overflow:hidden;
+         }
+
+         #mypic{
+                  position:absolute;
+                  left:120px;
+                  top:1019px;
+                  width:259px;
+                  height:300px;
+                  float:left;
+                  display:inline;
+               }
+
+         #mypic:hover{
+                       width:270px;
+                       height:312px;
+                     }
+
+         #abme{
+                 position:absolute;
+                 left:436px;
+                 top:1017px;
+                 float:right;
+                 background-color:rgb(245, 245, 220,0.6);
+                 letter-spacing:2px;
+                 width:750px;
+                 height:255px;
+                 text-align:center;
+                 display:inline;
+                 color:dimgray;
+                 font-family:"STFangsong";
+                 line-height:70%;
+                 margin-top:5px; 
+                 margin-bottom:5px;
+                 margin-right:48px;
+                 padding-left:20px;
+                 padding-top:40px;
+                 padding-bottom:0px;
+              }
+
+       #abme:hover{
+                     background-color:rgb(245, 245, 220);
+                  }
+
+       #mypic{
+                position:absolute;
+                left:120px;
+                top:1019px;
+                width:259px;
+                height:300px;
+                float:left;
+                display:inline;
+             }
+
+      #mypic:hover{
+                     width:270px;
+                     height:312px;
+                  }
+        
+       div.container{
+                       margin-left:10px;
+                       margin-right:20px;
+                     }
+
+       #wz{
+             float:left;
+             margin-left:60px;
+             position:absolute;
+             left:0px;
+             top:1329px;
+          }
+
+      #experience{
+                    background-color:rgb(204, 221, 255,0.6);
+                    letter-spacing:2px;
+                    width:650px;
+                    height:160px;
+                    text-align:center;
+                    color:dimgray;
+                    font-family:"STFangsong";
+                    line-height:50%;
+                    padding-top:110px;
+                    margin-bottom:10px;
+                 }
+       
+      #experience:hover{
+                          background-color:rgb(204, 221, 255);
+                      }
+
+       #interest{
+                   position:absolute;
+                   left:0px
+                   top:1315px;
+                   background-color:rgb(204, 187, 255,0.6);
+                   letter-spacing:2px;
+                   width:650px;
+                   height:160px;
+                   text-align:center;
+                   line-height:50%;
+                   color:dimgray;
+                   font-family:"STFangsong";
+                   padding-top:120px;
+                   margin-top:1px;
+                }
+
+      #interest:hover{
+                        background-color:rgb(204, 187, 255);
+                     }
+
+      #contact{
+                position:absolute;
+                left:680px;
+                top:1330px;
+                margin-left:40px;
+                margin-right:70px;
+                padding-top:80px;
+                float:right;
+                background-color:rgb(204, 204, 255,0.6);
+                width:485px;
+                height:480px;
+                line-height:50%;
+                color:dimgray;
+                font-family:"STFangsong";
+                text-align:center;
+                letter-spacing:2px;
+               }
+
+      #contact:hover{
+                       background-color:rgb(204, 204, 255);
+      }
+
+      #ig{
+            width:100px;
+            height:100px;
+        }
+
+      #fb{
+            width:100px;
+            height:100px;
+         }
+
+     #target{
+               position:absolute;
+               left:0px;
+               top:1900px;
+               width:1145px;
+               height:250px;
+               margin-left:60px;
+               margin-right:60px;
+               background-color:rgb(255, 239, 213,0.6);
+               text-align:center;
+               font-family:"STFangsong";
+               color:dimgray;
+               letter-spacing:2px;
+               line-height:50%;
+               padding-top:70px;
+           }
+
+      #target:hover{
+                      background-color:rgb(255, 239, 213);
+                   }
+
+      #photo{
+
+                position:absolute;
+                left:0px;
+                top:2230px;
+                margin-left:10px;
+                margin-right:20px;
+                width:1145px;
+                height:560px;
+                margin-left:60px;
+                margin-right:60px;
+                background-color:rgb(255, 218, 185,0.6);
+                text-align:center;
+                font-family:"STFangsong";
+                color:dimgray;
+                letter-spacing:1px;
+                font-weight:bold;
+                padding-top:10px;     
+            }
+
+      #photo:hover{
+                     background-color:rgb(255, 218, 185);
+                  }
+
+      #pc{
+            margin-left:2px;
+         }
+
+      div.mar{
+                padding-top:10px;
+                column-count:2;
+                column-rule:tan 5px dashed;
+                margin-bottom:22px;
+             }
+
+      div.pt1{
+                float:left;
+                margin-left:11px;
+                margin-right:11px;
+                margin-bottom:22px;
+             }
+
+      div.pt2{
+               float:right;
+               margin-right:11px;
+               margin-left:11px;
+               margin-bottom:22px;
+             }
+
+      footer{
+               background-color:rgb(250, 240, 230,0.8);
+               color: dimgray;
+               text-align:center;
+               font-family:"STFangsong";
+               font-weight:bold;
+               position:absolute;
+               left:0px;
+               top:2810px;
+               width:1145px;
+               height:90px;
+               margin-left:60px;
+               margin-right:60px;
+               padding-top:15px;
+            }
+      
+
+       div.home{
+                 position: fixed;
+                 bottom: 5px;
+                 right: 5px;
+                 z-index:100;
+               }
+
+       div.home:hover{
+                       position: fixed;
+                       bottom: 5px;
+                       right: 5px;
+                       z-index:100;
+                     }
+   </style>
