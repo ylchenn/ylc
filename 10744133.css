@@ -127,6 +127,7 @@
                  padding-left:20px;
                  padding-top:40px;
                  padding-bottom:0px;
+                 overflow: auto;
               }
 
        #abme:hover{
@@ -214,6 +215,7 @@
                 font-family:"STFangsong";
                 text-align:center;
                 letter-spacing:2px;
+                overflow: auto;
                }
 
       #contact:hover{
@@ -245,6 +247,7 @@
                letter-spacing:2px;
                line-height:50%;
                padding-top:74px;
+               overflow: auto;
            }
 
       #target:hover{
@@ -256,8 +259,6 @@
                 position:absolute;
                 left:0px;
                 top:2304px;
-                margin-left:10px;
-                margin-right:20px;
                 width:1145px;
                 height:560px;
                 margin-left:60px;
@@ -268,7 +269,8 @@
                 color:dimgray;
                 letter-spacing:1px;
                 font-weight:bold;
-                padding-top:10px;     
+                padding-top:10px;
+                overflow-y: auto;     
             }
 
       #photo:hover{
@@ -284,6 +286,7 @@
                 column-count:2;
                 column-rule:tan 5px dashed;
                 margin-bottom:22px;
+                overflow-y: auto;
              }
 
       div.pt1{
